@@ -1,0 +1,110 @@
+﻿body {
+    background-image: url(https://cdn.wallpapersafari.com/62/4/NO7oig.jpg);
+}
+
+
+.cabecera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 100px;
+    max-width: 60%;
+    border: 1px solid #000000;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    margin: 2px;
+}
+
+.h1{
+    color: white;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    max-width: 90%;
+    margin: 15px auto 20px auto;
+    padding: 20px;
+}
+
+.linkPublicar {
+    margin-left: 20px;
+}
+
+a{
+    color: white;
+}
+
+.separador {
+    border: 1px solid #000000;
+    padding: 5px;
+    width: 575px;
+    max-width: 90%;
+    margin: 40px auto 5px auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+}
+.titulo {
+    border: 1px solid #000000;
+    padding: 5px;
+    width: 1000px;
+    max-width: 90%;
+    margin: 40px auto 5px auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.enunciado {
+    border: 1px solid #000000;
+    padding: 5px;
+    width: 1000px;
+    max-width: 90%;
+    margin: 5px auto 50px auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.config {
+    padding: 5px;
+    width: 1000px;
+    max-width: 90%;
+    margin: 40px auto 5px auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+button {
+    width: 150px;
+    height: 40px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    background-color: #008037;
+    border: 1px solid #008037;
+    color: #ffffff;
+}
+
+.tipo {
+    border: 1px solid #000000;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    
+}

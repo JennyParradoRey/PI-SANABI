@@ -1,0 +1,96 @@
+﻿body {
+    background-image: url(https://cdn.wallpapersafari.com/62/4/NO7oig.jpg);
+}
+
+
+.cabecera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    width: 100px;
+    max-width: 60%;
+    border: 1px solid #000000;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    margin: 2px;
+}
+.titulo {
+    color: white;
+    text-align: center;
+    margin:5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    max-width: 90%;
+    margin: 15px auto 20px auto;
+    padding: 20px;
+}
+
+.linknoticias {
+    margin-left: 20px;
+}
+
+
+.infoUsuario {
+    padding: 20px;
+    width: 600px;
+    max-width: 700px;
+    margin: 40px auto 50px auto;
+    display:flex;
+    align-content: center;
+    align-items:center;
+}
+
+#foto {
+    width: 250px;
+    max-width: 60%;
+    border: 1px solid #000000;
+    -moz-border-radius: 180px;
+    -webkit-border-radius: 180px;
+    margin:30px;
+}
+
+
+.info {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: 0;
+    background:0;
+}
+
+.id {
+    display: flex;
+    margin: 5px;
+}
+.nombre {
+    margin: 5px;
+    display: flex;
+}
+
+.apellido {
+    margin: 5px;
+    display: flex;
+}
+
+.correo {
+    display: flex;
+    margin: 5px;
+}
+
+label {
+    width: 200px;
+    margin: 10px;
+}
+
+a{
+    color: white;
+}
